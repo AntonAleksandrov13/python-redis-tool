@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/.idea/SingletonCache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/bin/var-dump-server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/FAQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/bin/create-command-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/bin/create-pear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/bin/create-phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/bin/create-single-file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/custom_cluster_distributor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/debuggable_connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/dispatcher_loop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/executing_redis_commands.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/key_prefixing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/lua_scripting_abstraction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/monitor_consumer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/pipelining_commands.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/pubsub_consumer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/redis_collections_iterators.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/replication_complex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/replication_sentinel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/replication_simple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/session_handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/shared.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/examples/transaction_using_cas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/package.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/ClientContextInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/ClientException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/ClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/ClusterStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/Distributor/DistributorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/Distributor/EmptyRingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/Distributor/HashRing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/Distributor/KetamaRing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/Hash/CRC16.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/Hash/HashGeneratorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/PredisStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/RedisStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Cluster/StrategyInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Collection/Iterator/CursorBasedIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Collection/Iterator/HashKey.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Collection/Iterator/Keyspace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Collection/Iterator/ListKey.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Collection/Iterator/SetKey.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Collection/Iterator/SortedSetKey.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/CommandInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ConnectionAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ConnectionEcho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ConnectionPing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ConnectionQuit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ConnectionSelect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/GeospatialGeoAdd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/GeospatialGeoDist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/GeospatialGeoHash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/GeospatialGeoPos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/GeospatialGeoRadius.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/GeospatialGeoRadiusByMember.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashDelete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashExists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashGet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashGetAll.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashGetMultiple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashIncrementBy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashIncrementByFloat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashKeys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashScan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashSetMultiple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashSetPreserve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashStringLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HashValues.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HyperLogLogAdd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HyperLogLogCount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/HyperLogLogMerge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyDelete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyDump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyExists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyExpire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyExpireAt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyKeys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyMigrate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyMove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyPersist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyPreciseExpire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyPreciseExpireAt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyPreciseTimeToLive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyRandom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyRename.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyRenamePreserve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyRestore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyScan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeySort.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyTimeToLive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/KeyType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListIndex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListInsert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPopFirst.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPopFirstBlocking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPopLast.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPopLastBlocking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPopLastPushHead.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPopLastPushHeadBlocking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPushHead.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPushHeadX.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPushTail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListPushTailX.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListRange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListRemove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ListTrim.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/PrefixableCommandInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/Processor/KeyPrefixProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/Processor/ProcessorChain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/Processor/ProcessorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/PubSubPublish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/PubSubPubsub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/PubSubSubscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/PubSubSubscribeByPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/PubSubUnsubscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/PubSubUnsubscribeByPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/RawCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ScriptCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerBackgroundRewriteAOF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerBackgroundSave.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerDatabaseSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerEval.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerEvalSHA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerFlushAll.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerFlushDatabase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerInfoV26x.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerLastSave.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerMonitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerSave.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerScript.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerSentinel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerShutdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerSlaveOf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerSlowlog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ServerTime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetAdd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetCardinality.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetDifference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetDifferenceStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetIntersection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetIntersectionStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetIsMember.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetMembers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetMove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetPop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetRandomMember.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetRemove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetScan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetUnion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/SetUnionStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringAppend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringBitCount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringBitField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringBitOp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringBitPos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringDecrement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringDecrementBy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringGet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringGetBit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringGetMultiple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringGetRange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringGetSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringIncrement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringIncrementBy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringIncrementByFloat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringPreciseSetExpire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSetBit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSetExpire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSetMultiple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSetMultiplePreserve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSetPreserve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSetRange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringStrlen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/StringSubstr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/TransactionDiscard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/TransactionExec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/TransactionMulti.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/TransactionUnwatch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/TransactionWatch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetAdd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetCardinality.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetCount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetIncrementBy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetIntersectionStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetLexCount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRangeByLex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRangeByScore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRemove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRemoveRangeByLex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRemoveRangeByRank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetRemoveRangeByScore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetReverseRange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetReverseRangeByLex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetReverseRangeByScore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetReverseRank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetScan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetScore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Command/ZSetUnionStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/CommunicationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/ClusterOption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/ConnectionFactoryOption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/ExceptionsOption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/OptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/OptionsInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/PrefixOption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/ProfileOption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Configuration/ReplicationOption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/AbstractConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Aggregate/ClusterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Aggregate/MasterSlaveReplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Aggregate/PredisCluster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Aggregate/RedisCluster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Aggregate/ReplicationInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Aggregate/SentinelReplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/AggregateConnectionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/CompositeConnectionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/CompositeStreamConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/ConnectionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/ConnectionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/FactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/NodeConnectionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/Parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/ParametersInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/PhpiredisSocketConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/PhpiredisStreamConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/StreamConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Connection/WebdisConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Monitor/Consumer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/NotSupportedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Pipeline/Atomic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Pipeline/ConnectionErrorProof.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Pipeline/FireAndForget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Pipeline/Pipeline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/PredisException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/ProfileInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisProfile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisUnstable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisVersion200.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisVersion220.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisVersion240.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisVersion260.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisVersion280.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisVersion300.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Profile/RedisVersion320.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/ProtocolException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/ProtocolProcessorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/RequestSerializerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/ResponseReaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/CompositeProtocolProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/Handler/BulkResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/Handler/ErrorResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/Handler/IntegerResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/Handler/MultiBulkResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/Handler/ResponseHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/Handler/StatusResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/Handler/StreamableMultiBulkResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/ProtocolProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/RequestSerializer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Protocol/Text/ResponseReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/PubSub/AbstractConsumer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/PubSub/Consumer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/PubSub/DispatcherLoop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Replication/MissingMasterException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Replication/ReplicationStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Replication/RoleException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/ErrorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/Iterator/MultiBulk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/Iterator/MultiBulkIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/Iterator/MultiBulkTuple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/ResponseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/ServerException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Response/Status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Session/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Transaction/AbortedMultiExecException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Transaction/MultiExec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/predis/predis/src/Transaction/MultiExecState.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/Mbstring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-php72/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-php72/Php72.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-php72/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-php72/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/polyfill-php72/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/AmqpCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/ArgsStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/Caster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/ClassStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/ConstStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/CutArrayStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/CutStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/DOMCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/DateCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/DoctrineCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/EnumStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/FrameStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/GmpCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/LinkStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/PdoCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/PgSqlCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/RedisCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/ResourceCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/SplCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/StubCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/SymfonyCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/TraceStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/XmlReaderCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Caster/XmlResourceCaster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Cloner/ClonerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Cloner/Cursor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Cloner/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Cloner/DumperInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Cloner/Stub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Cloner/VarCloner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Command/Descriptor/CliDescriptor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Command/Descriptor/DumpDescriptorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Command/Descriptor/HtmlDescriptor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Command/ServerDumpCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/CliDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/ContextProvider/CliContextProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/ContextProvider/ContextProviderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/ContextProvider/RequestContextProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/ContextProvider/SourceContextProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/DataDumperInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Dumper/ServerDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Exception/ThrowingCasterException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Resources/bin/var-dump-server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Resources/css/htmlDescriptor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Resources/functions/dump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Resources/js/htmlDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Server/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Server/DumpServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Test/VarDumperTestTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/DateCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/ExceptionCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/GmpCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/PdoCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/RedisCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/StubCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Caster/XmlReaderCasterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Cloner/DataTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Dumper/FunctionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Dumper/HtmlDumperTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Dumper/ServerDumperTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Fixtures/FooInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Fixtures/GeneratorDemo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Fixtures/NotLoadableClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Fixtures/Twig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Fixtures/dumb-var.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Fixtures/dump_server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Fixtures/xml_reader.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Server/ConnectionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/VarDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingletonCache/vendor/symfony/var-dumper/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cleaner" beforeDir="false" afterPath="$PROJECT_DIR$/../Cleaner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatatricsScheduler" beforeDir="false" afterPath="$PROJECT_DIR$/../DatatricsScheduler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QueueBroker" beforeDir="false" afterPath="$PROJECT_DIR$/../QueueBroker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rabbitmq" beforeDir="false" afterPath="$PROJECT_DIR$/../Rabbitmq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonCache/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonCache/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonCache/src/CacheSingleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonCache/src/CacheSingleton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Workbench" beforeDir="false" afterPath="$PROJECT_DIR$/../Workbench" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_redis_tool$redis_tool.coverage" NAME="redis-tool Coverage Results" MODIFIED="1542632942212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1276944809">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1198" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1198" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis-tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/add_node.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/stats.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>opt</find>
+      <find>ch</find>
+      <find>subpre</find>
+      <find>sub</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tools/__init__.py" />
+        <option value="$PROJECT_DIR$/tools/redis-add_node.py" />
+        <option value="$PROJECT_DIR$/tools/add_node.py" />
+        <option value="$PROJECT_DIR$/redis-tool.py" />
+        <option value="$PROJECT_DIR$/gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-281" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python-redis-tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-redis-tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-redis-tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-redis-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tools" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="redis-tool" type="PythonConfigurationType" factoryName="Python">
+      <module name="python-redis-tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis-tool.py" />
+      <option name="PARAMETERS" value="hello" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="" />
+      <created>1542622686977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542622686977</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-281" y="-1080" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6554455" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/redis-tool.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/redis-tool.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tools/stats.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/add_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
