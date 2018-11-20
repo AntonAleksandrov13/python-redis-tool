@@ -1,64 +1,68 @@
 ###IMPORTS###
 import argparse
+import re
 import sys
 import ipaddress
 from tools import validate_node
+from tools import add_node
 
 
 class CommandParser(object):
-    sourceHost = ""
-    sourcePort = ""
+    source = ""
 
     def __init__(self):
         parser = argparse.ArgumentParser(
             description='Python tool for a Redis cluster administration.',
-            usage='''redis-tool.py [-host ip_of_any_cluster_node] [-p port_of_the_node] <command> [<args>]''')
+            usage='''redis-tool.py [--source address of any cluster node]  <command> [<args>]''')
         parser.add_argument('command', help='Operation to run. Choices are add_node, reshard, stats, '
                                             'validate_redis_node')
-        parser.add_argument('--source_host', help='IP address of any node in the Redis cluster.')
-        parser.add_argument('--source_port', type=int, help='Port of the node.')
+        parser.add_argument('--source', help='Address of any node in the Redis cluster.'
+                                             'It will be used as an entry point to cluster operations')
 
         options, args = parser.parse_known_args()
         if not hasattr(self, options.command):
-            print 'Unrecognized command'
+            print('Unrecognized command')
             parser.print_help()
             exit(1)
-        self.sourceHost = "127.0.0.1" if options.source_host is None else options.source_host
-        self.sourcePort = "6379" if options.source_port is None else options.source_port
+        self.source = "127.0.0.1" if options.source is None else options.source
         if options.command != "validate":
-            self.validate()
+            self.validate(self.source)
         getattr(self, options.command)()
 
-    def add_node(self):
+    @staticmethod
+    def add_node():
         parser = argparse.ArgumentParser(
             description='Add node to the given cluster')
-        parser.add_argument('-role', choices=['master', 'slave'],
+        parser.add_argument('-role', required=True, choices=['master', 'slave'],
                             help='Role of the node in the cluster. Could be either master or slave')
-        options, args = parser.parse_known_args()
-        print (options)
-        print 'Adding node...'
 
-    def reshard(self):
+        parser.add_argument('-target', required=True,
+                            help='Address of the node you would like to add to the cluster.')
+        options, args = parser.parse_known_args()
+        print('Adding node...')
+
+    @staticmethod
+    def reshard():
         parser = argparse.ArgumentParser(
             description='Reshard the given cluster.')
 
         options, args = parser.parse_known_args()
-        print (options)
-        print 'Resharding cluster...'
+        print(options)
+        print('Resharding cluster...')
 
-    def stats_cluster(self):
+    @staticmethod
+    def stats_cluster():
         parser = argparse.ArgumentParser(
             description='Print info about cluster.')
         options, args = parser.parse_known_args()
-        print (args)
-        print 'Printing cluster info...'
+        print(args)
+        print('Printing cluster info...')
 
-    def validate(self):
-        print 'Validating redis node...'
-        if validate_node.is_valid_redis_node(self.sourceHost):
-            print 'Valid redis node...'
-        else:
-            print 'Not valid...'
+    @staticmethod
+    def validate(node_to_validate):
+        if not validate_node.is_valid_redis_node(node_to_validate):
+            print('Node {0} turned out to be unreachable'.format({node_to_validate}))
+            exit(1)
 
 
 if __name__ == '__main__':
