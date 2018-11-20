@@ -14,3 +14,16 @@ def run_redis_cli_cmd(cmd_args):
     for cmd_to_insert in cmd_args:
         cmd.append(cmd_to_insert)
     return subprocess.run(cmd, stdout=subprocess.PIPE)
+
+
+def is_ip(s):
+    a = s.split('.')
+    if len(a) != 4:
+        return False
+    for x in a:
+        if not x.isdigit():
+            return False
+        i = int(x)
+        if i < 0 or i > 255:
+            return False
+    return True
