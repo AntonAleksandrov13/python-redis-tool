@@ -1,10 +1,12 @@
 ###IMPORTS###
 import argparse
-import re
-import sys
-import ipaddress
+
 from tools import validate_node
 from tools import add_node
+from tools import reshard
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s')
 
 
 class CommandParser(object):
@@ -29,26 +31,20 @@ class CommandParser(object):
             self.validate(self.source)
         getattr(self, options.command)()
 
-    @staticmethod
-    def add_node():
+    def add_node(self):
         parser = argparse.ArgumentParser(
             description='Add node to the given cluster')
         parser.add_argument('-role', required=True, choices=['master', 'slave'],
                             help='Role of the node in the cluster. Could be either master or slave')
 
-        parser.add_argument('-target', required=True,
+        parser.add_argument('-target', nargs='+', required=True,
                             help='Address of the node you would like to add to the cluster.')
         options, args = parser.parse_known_args()
-        print('Adding node...')
+        logging.debug('%s have been passed to add_node function', options)
+        add_node.add_node_to_cluster(self.source, options.target, options.role)
 
-    @staticmethod
-    def reshard():
-        parser = argparse.ArgumentParser(
-            description='Reshard the given cluster.')
-
-        options, args = parser.parse_known_args()
-        print(options)
-        print('Resharding cluster...')
+    def reshard(self):
+        reshard.reshard(self.source)
 
     @staticmethod
     def stats_cluster():
@@ -61,7 +57,6 @@ class CommandParser(object):
     @staticmethod
     def validate(node_to_validate):
         if not validate_node.is_valid_redis_node(node_to_validate):
-            print('Node {0} turned out to be unreachable'.format({node_to_validate}))
             exit(1)
 
 
