@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/reshard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/reshard.py" afterDir="false" />
-    </list>
+    <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +34,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
-          <entry key="md" value="4985" />
+          <entry key="md" value="5438" />
           <entry key="py" value="12117" />
           <entry key="txt" value="433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4985" />
+          <entry key="Markdown" value="5438" />
           <entry key="PLAIN_TEXT" value="472" />
           <entry key="Python" value="12117" />
         </counts>
@@ -85,9 +81,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="860">
-                <caret line="59" column="108" lean-forward="true" selection-start-line="59" selection-start-column="108" selection-end-line="59" selection-end-column="108" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="663">
+                <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -568,7 +564,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542892899975</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&#10;Docs">
+      <created>1542895459693</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542895459694</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&#10;Docs">
+      <created>1542895673715</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542895673715</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -890,9 +900,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="860">
-            <caret line="59" column="108" lean-forward="true" selection-start-line="59" selection-start-column="108" selection-end-line="59" selection-end-column="108" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="663">
+            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           </first_editor>
           <second_editor />
         </state>
