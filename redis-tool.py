@@ -36,9 +36,6 @@ class CommandParser(object):
             self.source = "127.0.0.1:6379" if options.source is None else options.source
             logging_level = logging.INFO if options.debug is False else logging.DEBUG
             logging.basicConfig(level=logging_level, format='%(asctime)s %(message)s')
-
-            if options.command != "validate":
-                self.validate(self.source)
             attribute_to_call = options.command
         getattr(self, attribute_to_call)()
 
