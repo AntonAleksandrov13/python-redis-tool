@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/redis-tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,7 @@
     <SUITE FILE_PATH="coverage/python_redis_tool$validate.coverage" NAME="validate Coverage Results" MODIFIED="1542888477854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$add_two_master_nodes.coverage" NAME="add two master nodes Coverage Results" MODIFIED="1542894837383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$help_for_resharding.coverage" NAME="help for resharding Coverage Results" MODIFIED="1542884127462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_redis_tool$setup.coverage" NAME="setup Coverage Results" MODIFIED="1542900055053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$help_for_adding_node.coverage" NAME="help for adding node Coverage Results" MODIFIED="1542884132767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$redis_tool.coverage" NAME="add two master nodes Coverage Results" MODIFIED="1542813589930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$help.coverage" NAME="help Coverage Results" MODIFIED="1542884115095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,13 +40,13 @@
           <entry key="dummy" value="39" />
           <entry key="md" value="5451" />
           <entry key="py" value="12277" />
-          <entry key="txt" value="433" />
+          <entry key="txt" value="464" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="5451" />
-          <entry key="PLAIN_TEXT" value="472" />
+          <entry key="PLAIN_TEXT" value="503" />
           <entry key="Python" value="12277" />
         </counts>
       </usages-collector>
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="299">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -95,8 +95,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="493">
-                <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <first_editor relative-caret-position="155">
+                <caret line="52" column="108" lean-forward="true" selection-start-line="52" selection-end-line="52" selection-end-column="108" />
               </first_editor>
               <second_editor />
             </state>
@@ -309,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reshard">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="add one master node" type="PythonConfigurationType" factoryName="Python">
       <module name="python-redis-tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -486,6 +486,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-redis-tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="validate" type="PythonConfigurationType" factoryName="Python">
       <module name="python-redis-tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -518,7 +540,13 @@
       <item itemvalue="Python.help" />
       <item itemvalue="Python.help for resharding" />
       <item itemvalue="Python.help for adding node" />
+      <item itemvalue="Python.setup" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.setup" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -636,7 +664,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542896311065</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Have added setup script">
+      <created>1542898359166</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1542898359166</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Have edited setup script">
+      <created>1542899654564</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1542899654564</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -652,7 +694,7 @@
     <frame x="-281" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17252396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17252396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -665,7 +707,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48910892" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.48910892" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4227723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -719,7 +761,9 @@
     <MESSAGE value="Empty commit" />
     <MESSAGE value="&#10;Docs" />
     <MESSAGE value="Docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docs" />
+    <MESSAGE value="Have added setup script" />
+    <MESSAGE value="Have edited setup script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Have edited setup script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,16 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="493">
-            <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis-tool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -966,10 +1000,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="155">
+            <caret line="52" column="108" lean-forward="true" selection-start-line="52" selection-end-line="52" selection-end-column="108" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="299">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
         </state>
       </provider>
     </entry>
