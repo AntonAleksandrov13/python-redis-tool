@@ -28,6 +28,6 @@ It works as following:
  - Check if all hash slots have been covered
  
  
-In this image you can see the way hash slots will be distributed
-[](./docs/sharding.png)
+In this image you can see the way hash slots will be distributed:
 
+![Hash slots distribution](https://github.com/AntonAleksandrov13/python-redis-tool/blob/master/docs/sharding.png)
