@@ -2,9 +2,8 @@
 import argparse
 import sys
 
-from tools import validate_node
-from tools import add_node
-from tools import reshard
+from cmd.tools import validate_node, reshard
+from cmd.tools import add_node
 import logging
 
 
@@ -14,7 +13,7 @@ class CommandParser(object):
     def __init__(self):
         parser = argparse.ArgumentParser(
             description='Python tool for a Redis cluster administration.',
-            usage='redis-tool.py [-s REDIS_NODE_ADDRESS] [-d] command <args>')
+            usage='redis_tool.py [-s REDIS_NODE_ADDRESS] [-d] command <args>')
         parser.add_argument('command',
                             help='command to run. Right now there are two options')
         parser.add_argument('-s', '--source', help='one of the nodes from the Redis cluster. '
@@ -43,7 +42,7 @@ class CommandParser(object):
         parser = argparse.ArgumentParser(
             description='This command will add the given target node(s) to the cluster. It simply '
                         'executes add_node command from redis-cli multiple times.',
-            usage='redis-tool.py [--source] [--d] add_node -role <master|slave> -target <node_address...>')
+            usage='redis_tool.py [--source] [--d] add_node -role <master|slave> -target <node_address...>')
         parser.add_argument('-r', '--role', required=True, choices=['master', 'slave'],
                             help='Role of the node in the cluster. Could be either master or slave')
 
@@ -59,7 +58,7 @@ class CommandParser(object):
                         'master nodes which already have hash slots and cluster master nodes without hash slots. Then '
                         'it calculates how to equally distribute hash slots across all masters and performs a set of '
                         'resharding operation using redis-cli.',
-            usage='''redis-tool.py [--source] [--d] reshard''')
+            usage='''redis_tool.py [--source] [--d] reshard''')
         parser.parse_known_args()
 
         reshard.reshard(self.source)
@@ -72,5 +71,6 @@ class CommandParser(object):
         logging.info("[√] Source node is valid")
 
 
-if __name__ == '__main__':
-    CommandParser()
+def run():
+    if __name__ == '__main__':
+        CommandParser()

@@ -46,5 +46,8 @@ setup(
     license='',
     author='Anton Aleksandrov',
     author_email='antonaleksandrov24@gmail.com',
-    description=''
+    description='',
+    entry_points = {
+        'console_scripts': ['redis-tool=cmd.redis_tool:run'],
+    }
 )
