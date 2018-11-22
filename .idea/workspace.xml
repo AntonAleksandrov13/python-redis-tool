@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/redis-tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/add_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/add_node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/reshard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/reshard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/stats.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/validate_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/validate_node.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +36,25 @@
         <counts>
           <entry key="dummy" value="39" />
           <entry key="py" value="12106" />
-          <entry key="txt" value="367" />
+          <entry key="txt" value="411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="406" />
+          <entry key="PLAIN_TEXT" value="450" />
           <entry key="Python" value="12106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="md" value="1" />
           <entry key="py" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="38" />
         </counts>
@@ -69,11 +66,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis-tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="607">
+              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -111,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/add_node.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -207,11 +214,6 @@
             <path>
               <item name="python-redis-tool" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-redis-tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-redis-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-redis-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-redis-tool" type="b2602c69:ProjectViewProjectNode" />
@@ -480,7 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542815256752</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished version 1.0">
+      <created>1542884423766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542884423766</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Empty readme was added">
+      <created>1542885173635</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542885173635</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -494,13 +510,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-281" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.64455444" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.64455444" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32970297" />
@@ -557,7 +574,9 @@
     <MESSAGE value="Made adding nodes command. A node can be added either in master or slave mode" />
     <MESSAGE value="Working on parsing master nodes slots info" />
     <MESSAGE value="Made resharding working. Might need polishing up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made resharding working. Might need polishing up" />
+    <MESSAGE value="Finished version 1.0" />
+    <MESSAGE value="Empty readme was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empty readme was added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,16 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/add_node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -788,6 +797,24 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
