@@ -1,5 +1,4 @@
 import re
-import subprocess
 import time
 
 from pip._internal import logger
@@ -13,15 +12,15 @@ def reshard(source):
     logger.info("Started resharding")
     host, port = util.split_address(source)
     cluster_masters_with_slots = get_slot_distribution(host, port)
-    logger.info('Found %s master(s) in the cluster with slots', len(cluster_masters_with_slots))
+    logger.debug('Found %s master(s) in the cluster with slots', len(cluster_masters_with_slots))
     cluster_masters_without_slots = get_master_without_slots(host, port)
-    logger.info('Found %s master(s) in the cluster without slots', len(cluster_masters_without_slots))
+    logger.debug('Found %s master(s) in the cluster without slots', len(cluster_masters_without_slots))
     if len(cluster_masters_without_slots) == 0:
-        logger.info('Cannot start resharding, since there are no masters where slots could be placed')
+        logger.error('Cannot start resharding, since there are no masters where slots could be placed')
         return
     logger.info('Performing resharding...')
     perform_resharding(cluster_masters_with_slots, cluster_masters_without_slots, source)
-    logger.info('[√]Done resharding')
+    logger.info('[√] Done resharding')
 
 
 def get_slot_distribution(host, port):
@@ -104,7 +103,7 @@ def perform_resharding(masters_with_slots, masters_without_slots, source):
                         '--cluster-yes']
             logger.debug("Sharding %s to %s %s slots" % (
                 master_with_slots.node_id, master_without_slots.node_id, shards_amount_per_one_master))
-            util.run_redis_cli_cmd(cmd_args, False)
+            # util.run_redis_cli_cmd(cmd_args, False)
             logger.debug('Soon will run sanity check')
             time.sleep(5)
             cmd_args = ['--cluster', 'fix', master_without_slots.ip + ":" + str(master_without_slots.port)]
