@@ -50,7 +50,7 @@ A user can define in which mode certain nodes will be launched using `--role` ar
 You don`t have to worry to which master a slave will be assigned. redis-cli finds master with the least amount slaves itself.
 
 ## tl;dr
-This CLI is just a wrapper for redis-cli with two key features: adding nodes and resharding cluster.
+This CLI is just a wrapper for redis-cli with two key features: adding nodes and resharding a Redis cluster.
 
 ### Resharding 
 Resharding is done by `python redis-tool.py -s SOURCE_NODE_ADDRESS reshard`.
