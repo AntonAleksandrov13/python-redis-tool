@@ -36,7 +36,7 @@ setup(
     py_modules=[package_name],
     entry_points={
         'console_scripts': [
-            'redis-tool- = redis-tool:main'
+            'redis-tool= redis-tool:main'
         ]
     },
     license='License :: OSI Approved :: MIT License',
