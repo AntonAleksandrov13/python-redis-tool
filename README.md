@@ -1,7 +1,7 @@
 # Tool for Redis Cluster administration.
 ## Description
 This tool is a Python CLI built on the top of [redis-cli](https://redis.io/topics/rediscli).
-The reason this tool was made is that some automation features is missing in redis-cli. 
+The reason this tool was made is that some automation features are missing in redis-cli. 
 For example, to reshard a Redis cluster, a user has to manually move slots from one node to another.
 Moreover, it is not possible to add more than one node to a Redis cluster once in a time.
 
@@ -31,3 +31,30 @@ It works as following:
 In this image you can see the way hash slots will be distributed:
 
 ![Hash slots distribution](https://github.com/AntonAleksandrov13/python-redis-tool/blob/master/docs/sharding.png)
+
+
+###Adding multiple nodes 
+In my opinion, scaling up is never done by adding one master of one slave node to a Redis Cluster.
+Therefore, another feature in my CLI is to add multiple nodes with a certain role at once.
+
+A user can define in which mode certain nodes will be launched using `--role` argument with `add_node`.
+You don`t have to worry to which master a slave will be assigned. redis-cli finds master with the least amount slaves itself.
+
+##tl;dr
+This CLI is just a wrapper for redic-cli with two key features: adding nodes and resharding cluster.
+
+###Resharding 
+Resharding is done by `python redis-tool.py -s SOURCE_NODE_ADDRESS reshard`.
+`SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. It will be used as an entrypoint to all cluster operations.
+`reshard` command requires at least one "empty" master. Otherwise, it will not work.
+
+###Adding multiple nodes
+Adding multiple node is done by `python redis-tool.py -s SOURCE_NODE_ADDRESS add_node --role{master,slave} --target<TARGET_NODE_ADDRESS...>`.
+`SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. `TARGET_NODE_ADDRESS` - Address of the node you would like to add to the cluster.
+You can provide more than one `TARGET_NODE_ADDRESS`.
+
+#Sum up
+This tool does not aims to replace a key features of redis-cli. It only tries to supplement redis-cli.
+
+In order to get more information about how to use this tool, please use `python redis-tool.py -h`.
+If you want to have more information about a specific command run `python redis-tool.py add_node|reshard -h`
