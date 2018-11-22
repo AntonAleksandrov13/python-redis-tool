@@ -34,8 +34,8 @@ In this image you can see the way hash slots will be distributed:
 
 #### Pros/cons
 Pros
-- Executed in a single command
-- Done via redis-cli
+- Executed in a single command.
+- Done via redis-cli.
 - Zero downtime. A client is still able to wrote to a Redis cluster while resharding is done.
 
 Cons
@@ -66,4 +66,4 @@ You can provide more than one `TARGET_NODE_ADDRESS`.
 This tool does not aims to replace redis-cli. It only tries to supplement redis-cli functionality.
 
 In order to get more information about how to use this tool, please use `python redis-tool.py -h`.
-If you want to have more information about a specific command run `python redis-tool.py add_node|reshard -h`
+If you want to have more information about a specific command run `python redis-tool.py add_node|reshard -h`.
