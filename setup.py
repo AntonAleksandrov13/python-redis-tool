@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AntonAleksandrov13/python-redis-tool.git",
-    packages=['cmd', 'cmd.model', 'cmd.'],
+    packages=['cmd', 'cmd.model', 'cmd.tools'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
