@@ -1,7 +1,7 @@
 import logging
 
-from cmd import util
-from cmd.util import is_ip
+from cli import util
+from cli.util import is_ip
 
 
 def add_node_to_cluster(source, target, target_role):

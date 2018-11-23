@@ -3,9 +3,9 @@ import time
 
 from pip._internal import logger
 
-from cmd.util import is_ip
-from cmd import util
-from cmd.model import MasterNode
+from cli.master_node import MasterNode
+from cli.util import is_ip
+from cli import util
 
 
 def reshard(source):

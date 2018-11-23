@@ -3,7 +3,7 @@ Name: redis-tools
 Version: 1.2.1
 Summary: A small example package
 Home-page: https://github.com/AntonAleksandrov13/python-redis-tool.git
-Author: AntonAleksandrov
+Author: Anton Aleksandrov
 Author-email: antonaleksandrov24@gmail.com
 License: UNKNOWN
 Description: # Tool for Redis Cluster administration.

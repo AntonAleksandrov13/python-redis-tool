@@ -1,6 +1,6 @@
 import logging
 
-from cmd import util
+from cli import util
 
 
 def is_valid_redis_node(node_address):

@@ -6,19 +6,19 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="redis-tools",
     version="1.2.1",
-    author="AntonAleksandrov",
+    author="Anton Aleksandrov",
     author_email="antonaleksandrov24@gmail.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AntonAleksandrov13/python-redis-tool.git",
-    packages=['cmd'],
+    packages=['cli'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     entry_points={
-        'console_scripts': ['redis-tool=cmd.__main__:main'],
+        'console_scripts': ['redis-tool=cli.__main__:main'],
     }
 )
