@@ -2,8 +2,7 @@
 import argparse
 import sys
 
-from cmd.tools import validate_node, reshard
-from cmd.tools import add_node
+from cmd import reshard, add_node, validate_node
 import logging
 
 
