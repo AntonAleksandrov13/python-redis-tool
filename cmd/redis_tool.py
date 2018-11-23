@@ -71,5 +71,9 @@ class CommandParser(object):
         logging.info("[√] Source node is valid")
 
 
-if __name__ == '__main__':
+def main():
     CommandParser()
+
+
+if __name__ == '__main__':
+    main()
