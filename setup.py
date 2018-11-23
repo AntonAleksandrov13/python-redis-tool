@@ -19,6 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     entry_points={
-        'console_scripts': ['redis-tool=redis_tool:main'],
+        'console_scripts': ['redis-tool=cmd.__main__:main'],
     }
 )
