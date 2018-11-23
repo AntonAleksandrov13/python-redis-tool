@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3.7
 import argparse
 import sys
 
@@ -71,6 +71,5 @@ class CommandParser(object):
         logging.info("[√] Source node is valid")
 
 
-def run():
-    if __name__ == '__main__':
-        CommandParser()
+if __name__ == '__main__':
+    CommandParser()
