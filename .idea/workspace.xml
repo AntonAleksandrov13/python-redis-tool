@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="Fix">
+    <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/redis_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/redis_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +41,15 @@
           <entry key="Python Console" value="109" />
           <entry key="dummy" value="40" />
           <entry key="md" value="5451" />
-          <entry key="py" value="12546" />
-          <entry key="txt" value="467" />
+          <entry key="py" value="12579" />
+          <entry key="txt" value="476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="5451" />
-          <entry key="PLAIN_TEXT" value="507" />
-          <entry key="Python" value="12655" />
+          <entry key="PLAIN_TEXT" value="516" />
+          <entry key="Python" value="12688" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -76,11 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmd/redis_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="255">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -97,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -156,6 +155,7 @@
       <find>pip-10.0.1-py3.7.egg.pip</find>
       <find>egg/pip.</find>
       <find>_vendor.</find>
+      <find>ma</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -187,8 +187,8 @@
         <option value="$PROJECT_DIR$/redis-tool.py" />
         <option value="$PROJECT_DIR$/cmd/redis-tool.py" />
         <option value="$PROJECT_DIR$/command_line.py" />
-        <option value="$PROJECT_DIR$/cmd/redis_tool.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/cmd/redis_tool.py" />
       </list>
     </option>
   </component>
@@ -235,6 +235,11 @@
             <path>
               <item name="python-redis-tool" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-redis-tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-redis-tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-redis-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,7 +295,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="add_node -s 127.0.0.1:7000 -r slave -t 127.0.0.1:7009" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,7 +317,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="add_node --source 127.0.0.1:7000 -role slave -target 127.0.0.1:7009" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,7 +339,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="add_node -s 127.0.0.1:7000 -r master -t 127.0.0.1 127.0.0.1:7007" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,7 +361,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="add_node -s 127.0.0.1:7000 -r slave -t 127.0.0.1:7008 127.0.0.1:7009" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,7 +383,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="add_node --h" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,7 +405,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="reshard -h" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,7 +427,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="-h" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,7 +449,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="-s 127.0.0.1:7000 -d reshard" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -488,7 +493,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/redis_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_tool.py" />
       <option name="PARAMETERS" value="validate -s 127.0.0.1:7000" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -659,7 +664,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542901516684</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fix setup.py">
+      <created>1542961790677</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1542961790677</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix setup.py">
+      <created>1542962758342</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542962758342</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -675,7 +694,7 @@
     <frame x="-281" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17412141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17412141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -688,7 +707,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.7550586" visible="true" weight="0.48910892" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7550586" visible="true" weight="0.48910892" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49946752" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4227723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -744,7 +763,8 @@
     <MESSAGE value="Docs" />
     <MESSAGE value="Have added setup script" />
     <MESSAGE value="Have edited setup script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Have edited setup script" />
+    <MESSAGE value="Fix setup.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix setup.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,7 +786,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cmd/redis_tool.py</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
       </breakpoints>
@@ -990,13 +1010,6 @@
         <state relative-caret-position="-223" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/redis_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmd/tools/reshard.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1009,8 +1022,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/redis_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
