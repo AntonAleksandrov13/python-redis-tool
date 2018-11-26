@@ -1,4 +1,24 @@
 # Tool for Redis Cluster administration.
+## tl;dr
+This CLI is just a wrapper for redis-cli with two key features: adding nodes and resharding a Redis cluster.
+
+### Resharding 
+Resharding is done by `redis-cluster-tool -s SOURCE_NODE_ADDRESS reshard`.
+`SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. It will be used as an entrypoint to all cluster operations.
+`reshard` command requires at least one "empty" master. Otherwise, it will not work.
+
+### Adding multiple nodes
+Adding multiple node is done by `redis-cluster-tool -s SOURCE_NODE_ADDRESS add_node --role{master,slave} --target<TARGET_NODE_ADDRESS...>`.
+`SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. `TARGET_NODE_ADDRESS` - Address of the node you would like to add to the cluster.
+You can provide more than one `TARGET_NODE_ADDRESS`.
+
+### Installation and requirements
+This tools could be installed through `pip` or `pip3` using `pip3 install git+https://github.com/AntonAleksandrov13/python-redis-tool.git`. This will install the latest version of the tool.
+Obliviously, in order to make it work you will need Python 3.7 and pip or pip3 installed. 
+
+In order to get more information about how to use this tool, please use `redis-cluster-tool -h`.
+If you want to have more information about a specific command run `redis-cluster-tool add_node|reshard -h`.
+
 ## Description
 This tool is a Python CLI built on the top of [redis-cli](https://redis.io/topics/rediscli).
 The reason this tool was made is that some automation features are missing in redis-cli. 
@@ -48,22 +68,3 @@ Therefore, another feature in my CLI is to add multiple nodes with a certain rol
 
 A user can define in which mode certain nodes will be launched using `--role` argument with `add_node`.
 You don`t have to worry to which master a slave will be assigned. redis-cli finds master with the least amount slaves itself.
-
-## tl;dr
-This CLI is just a wrapper for redis-cli with two key features: adding nodes and resharding a Redis cluster.
-
-### Resharding 
-Resharding is done by `python redis-tool.py -s SOURCE_NODE_ADDRESS reshard`.
-`SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. It will be used as an entrypoint to all cluster operations.
-`reshard` command requires at least one "empty" master. Otherwise, it will not work.
-
-### Adding multiple nodes
-Adding multiple node is done by `python redis-tool.py -s SOURCE_NODE_ADDRESS add_node --role{master,slave} --target<TARGET_NODE_ADDRESS...>`.
-`SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. `TARGET_NODE_ADDRESS` - Address of the node you would like to add to the cluster.
-You can provide more than one `TARGET_NODE_ADDRESS`.
-
-# Sum up
-This tool does not aims to replace redis-cli. It only tries to supplement redis-cli functionality.
-
-In order to get more information about how to use this tool, please use `python redis-tool.py -h`.
-If you want to have more information about a specific command run `python redis-tool.py add_node|reshard -h`.
