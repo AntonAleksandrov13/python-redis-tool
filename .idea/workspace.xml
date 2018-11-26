@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="Fix done">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-redis-tool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-redis-tool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/add_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli/add_node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/redis_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli/redis_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/reshard.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli/reshard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli/util.py" afterDir="false" />
-    </list>
+    <list default="true" id="f2de8630-9613-4e33-8af8-6c69e175d234" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +19,7 @@
     <SUITE FILE_PATH="coverage/python_redis_tool$setup.coverage" NAME="setup Coverage Results" MODIFIED="1542901485631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$add_one_master_node.coverage" NAME="add one master node Coverage Results" MODIFIED="1542884354434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$redis_tool.coverage" NAME="add two master nodes Coverage Results" MODIFIED="1542813589930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_redis_tool$reshard.coverage" NAME="reshard Coverage Results" MODIFIED="1543243995959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_redis_tool$reshard.coverage" NAME="reshard Coverage Results" MODIFIED="1543244656603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$help.coverage" NAME="help Coverage Results" MODIFIED="1542884115095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_redis_tool$help_for_resharding.coverage" NAME="help for resharding Coverage Results" MODIFIED="1542884127462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -36,20 +28,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli/redis_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="316">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#25#40#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-2060793787/249573928/argparse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="1771" selection-start-line="1771" selection-end-line="1771" />
             </state>
           </provider>
         </entry>
@@ -63,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli/reshard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="283">
+              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -75,11 +58,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="476">
+                <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-2060793787/249573928/re.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="1381" selection-start-line="1381" selection-end-line="1381" />
+            <state relative-caret-position="263">
+              <caret line="277" selection-start-line="277" selection-end-line="277" />
             </state>
           </provider>
         </entry>
@@ -108,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="179">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -129,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli/master_node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+            <state relative-caret-position="323">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -192,7 +187,6 @@
         <option value="$PROJECT_DIR$/tools/validate_node.py" />
         <option value="$PROJECT_DIR$/tools/add_node.py" />
         <option value="$PROJECT_DIR$/tools/reshard.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/redis-tool.py" />
         <option value="$PROJECT_DIR$/cmd/redis-tool.py" />
         <option value="$PROJECT_DIR$/command_line.py" />
@@ -206,6 +200,7 @@
         <option value="$PROJECT_DIR$/cli/util.py" />
         <option value="$PROJECT_DIR$/cli/add_node.py" />
         <option value="$PROJECT_DIR$/cli/reshard.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -277,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.add node">
+  <component name="RunManager" selected="Python.reshard">
     <configuration name="add node" type="PythonConfigurationType" factoryName="Python">
       <module name="python-redis-tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,7 +350,7 @@
       <workItem from="1543219751195" duration="182000" />
       <workItem from="1543219962714" duration="41000" />
       <workItem from="1543220028933" duration="60000" />
-      <workItem from="1543220124254" duration="8521000" />
+      <workItem from="1543220124254" duration="9805000" />
     </task>
     <task id="LOCAL-00001" summary="Made class for executing commands and sharing common fields">
       <created>1542641164472</created>
@@ -560,11 +555,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543233244966</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added node validation and small fixes">
+      <created>1543244142601</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1543244142601</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Have added installation guide">
+      <created>1543246277347</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1543246277347</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10206000" />
+    <option name="totallyTimeSpent" value="11490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,14 +586,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-281" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18210863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18210863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.64455444" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.64455444" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32970297" />
@@ -647,7 +657,9 @@
     <MESSAGE value="Have edited setup script" />
     <MESSAGE value="Fix setup.py" />
     <MESSAGE value="Changed cmd name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed cmd name" />
+    <MESSAGE value="Added node validation and small fixes" />
+    <MESSAGE value="Have added installation guide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Have added installation guide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,13 +681,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cli/reshard.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="122" />
+          <line>72</line>
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cli/reshard.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="123" />
+          <line>46</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -793,16 +805,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/command_line.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="884">
-            <caret line="52" column="108" selection-start-line="52" selection-end-line="52" selection-end-column="108" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/argparse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29971">
@@ -889,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cli/master_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-2060793787/249573928/argparse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -920,9 +915,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-2060793787/249573928/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cli/redis_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="316">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#25#40#0" expanded="true" />
@@ -932,21 +934,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cli/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="179">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cli/master_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cli/reshard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="283">
+          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="476">
+            <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
