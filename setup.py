@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="redis-tools",
-    version="1.2.1",
+    name="redis-cluster-tool",
+    version="1",
     author="Anton Aleksandrov",
     author_email="antonaleksandrov24@gmail.com",
     description="A small example package",
@@ -19,6 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     entry_points={
-        'console_scripts': ['redis-tool=cli.__main__:main'],
+        'console_scripts': ['redis-cluster-tool=cli.__main__:main'],
     }
 )

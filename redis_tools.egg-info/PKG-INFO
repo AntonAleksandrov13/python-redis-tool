@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: redis-tools
-Version: 1.2.1
+Version: 1
 Summary: A small example package
 Home-page: https://github.com/AntonAleksandrov13/python-redis-tool.git
 Author: Anton Aleksandrov
