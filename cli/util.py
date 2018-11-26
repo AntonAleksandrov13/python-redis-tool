@@ -1,6 +1,9 @@
 import re
 import subprocess
 
+import logging
+from cli.validate_node import is_valid_redis_node
+
 
 def split_address(address):
     address = address.split("@", 1)[0]
@@ -32,3 +35,10 @@ def is_ip(s):
         if i < 0 or i > 255:
             return False
     return True
+
+
+def validate(node_to_validate):
+    if not is_valid_redis_node(node_to_validate):
+        logging.error("[X] Node %s is not valid." % node_to_validate)
+        exit(1)
+    logging.info("[V] Node %s is valid" % node_to_validate)

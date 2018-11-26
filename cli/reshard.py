@@ -9,6 +9,7 @@ from cli import util
 
 
 def reshard(source):
+    util.validate(source)
     logger.info("Started resharding")
     host, port = util.split_address(source)
     cluster_masters_with_slots = get_slot_distribution(host, port)
@@ -20,7 +21,9 @@ def reshard(source):
         return
     logger.info('Performing resharding...')
     perform_resharding(cluster_masters_with_slots, cluster_masters_without_slots, source)
-    logger.info('[√] Done resharding')
+    logger.info('[V] Done resharding')
+
+
 
 
 def get_slot_distribution(host, port):
@@ -36,6 +39,8 @@ def parse_cmd_output_to_array(stdout):
     parsed_cmd_result.replace("'", "")
     parsed_cmd_result.rstrip()
     return re.compile("\n").split(parsed_cmd_result)
+
+
 
 
 def extract_cluster_masters_with_slots(array_of_all_nodes):
@@ -103,7 +108,7 @@ def perform_resharding(masters_with_slots, masters_without_slots, source):
                         '--cluster-yes']
             logger.debug("Sharding %s to %s %s slots" % (
                 master_with_slots.node_id, master_without_slots.node_id, shards_amount_per_one_master))
-            util.run_redis_cli_cmd(cmd_args, False)
+            #util.run_redis_cli_cmd(cmd_args, False)
             logger.debug('Soon will run sanity check')
             time.sleep(5)
             cmd_args = ['--cluster', 'fix', master_without_slots.ip + ":" + str(master_without_slots.port)]

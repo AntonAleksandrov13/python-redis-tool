@@ -62,12 +62,6 @@ class CommandParser(object):
 
         reshard.reshard(self.source)
 
-    @staticmethod
-    def validate(node_to_validate):
-        if not validate_node.is_valid_redis_node(node_to_validate):
-            logging.error("[X] Source node is not valid.")
-            exit(1)
-        logging.info("[√] Source node is valid")
 
 
 def main():
