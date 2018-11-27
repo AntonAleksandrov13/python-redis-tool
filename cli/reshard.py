@@ -12,9 +12,8 @@ def reshard(source):
     util.validate(source)
     logger.info("Started resharding")
     host, port = util.split_address(source)
-    cluster_masters_with_slots = get_slot_distribution(host, port)
+    cluster_masters_without_slots, cluster_masters_with_slots = get_slot_distribution(host, port)
     logger.debug('Found %s master(s) in the cluster with slots', len(cluster_masters_with_slots))
-    cluster_masters_without_slots = get_master_without_slots(host, port)
     logger.debug('Found %s master(s) in the cluster without slots', len(cluster_masters_without_slots))
     if len(cluster_masters_without_slots) == 0:
         logger.error('Cannot start resharding, since there are no masters where slots could be placed')
@@ -24,13 +23,11 @@ def reshard(source):
     logger.info('[V] Done resharding')
 
 
-
-
 def get_slot_distribution(host, port):
-    cmd_args = ['-c', '-h', host, '-p', port, 'cluster', 'slots']
+    cmd_args = ['-c', '-h', host, '-p', port, 'cluster', 'nodes']
     result = util.run_redis_cli_cmd(cmd_args, True)
     result_as_array = parse_cmd_output_to_array(result.stdout)
-    return extract_cluster_masters_with_slots(result_as_array)
+    return extract_cluster_masters(result_as_array)
 
 
 def parse_cmd_output_to_array(stdout):
@@ -41,54 +38,43 @@ def parse_cmd_output_to_array(stdout):
     return re.compile("\n").split(parsed_cmd_result)
 
 
-
-
-def extract_cluster_masters_with_slots(array_of_all_nodes):
-    master_nodes = []
+def extract_cluster_masters(array_of_all_nodes):
+    master_nodes_with_slots = []
+    master_nodes_without_slots = []
     i = 0
     while i < len(array_of_all_nodes):
-        element = array_of_all_nodes[i]
-        if is_ip(element):
-            try:
-                master_node_to_add = MasterNode(int(array_of_all_nodes[i - 2]), int(array_of_all_nodes[i - 1]),
-                                                array_of_all_nodes[i],
-                                                int(array_of_all_nodes[i + 1]), array_of_all_nodes[i + 2])
-                logger.debug(master_node_to_add)
-                master_nodes.append(master_node_to_add)
-                i += 3
-                continue
-            except (TypeError, ValueError):
-                i += 1
-                continue
-
-        i += 1
-
-    return master_nodes
-
-
-def get_master_without_slots(host, port):
-    cmd_args = ['-c', '-h', host, '-p', port, 'cluster', 'nodes']
-    result = util.run_redis_cli_cmd(cmd_args, True)
-    result_as_array = parse_cmd_output_to_array(result.stdout)
-    return extract_masters_without_slots(result_as_array)
-
-
-def extract_masters_without_slots(all_nodes):
-    master_nodes_to_return = []
-    i = 0
-    while i < len(all_nodes):
-        node = all_nodes[i]
+        node = array_of_all_nodes[i]
         if not ('slave' in node or 'noaddr' in node):
             node_as_array = re.compile(' ').split(node)
-            if 8 >= len(node_as_array) > 1:
-                host, port = util.split_address(node_as_array[1])
-                if is_ip(host):
-                    master_node_to_add = MasterNode(0, 0, host,
-                                                    int(port), node_as_array[0])
-                    logger.debug(master_node_to_add)
-                    master_nodes_to_return.append(master_node_to_add)
+            if 9 >= len(node_as_array) > 1:
+                master_node_to_add = process_array_with_master_node_fields(node_as_array)
+                if master_node_to_add is not None:
+                    if len(node_as_array) == 9:
+                        master_nodes_with_slots.append(master_node_to_add)
+                    else:
+                        master_nodes_without_slots.append(master_node_to_add)
         i += 1
-    return master_nodes_to_return
+    return master_nodes_without_slots, master_nodes_with_slots
+
+
+def process_array_with_master_node_fields(node_properties_as_array):
+    host, port = util.split_address(node_properties_as_array[1])
+    if is_ip(host):
+        start_slot = 0
+        end_slot = 0
+        if len(node_properties_as_array) is 9:
+            start_slot, end_slot = process_start_end_slots(node_properties_as_array[8])
+        master_node = MasterNode(start_slot, end_slot, host,
+                                 int(port), node_properties_as_array[0])
+        logger.debug(master_node)
+        return master_node
+    return None
+
+
+def process_start_end_slots(start_end_slot_to_parse):
+    start_end_slot = re.split("-", start_end_slot_to_parse)
+
+    return int(start_end_slot[0]), int(start_end_slot[1])
 
 
 def perform_resharding(masters_with_slots, masters_without_slots, source):
