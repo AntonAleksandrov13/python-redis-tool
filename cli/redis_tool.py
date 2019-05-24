@@ -2,7 +2,7 @@
 import argparse
 import sys
 
-from cli import reshard, add_node, validate_node
+from cli import reshard, add_node
 import logging
 
 
@@ -61,7 +61,6 @@ class CommandParser(object):
         parser.parse_known_args()
 
         reshard.reshard(self.source)
-
 
 
 def main():

@@ -3,15 +3,17 @@ import time
 
 from pip._internal import logger
 
+from cli.util import validate
+from cli.util import split_address
+from cli.util import run_redis_cli_cmd
 from cli.master_node import MasterNode
 from cli.util import is_ip
-from cli import util
 
 
 def reshard(source):
-    util.validate(source)
+    validate(source)
     logger.info("Started resharding")
-    host, port = util.split_address(source)
+    host, port = split_address(source)
     cluster_masters_without_slots, cluster_masters_with_slots = get_slot_distribution(host, port)
     logger.debug('Found %s master(s) in the cluster with slots', len(cluster_masters_with_slots))
     logger.debug('Found %s master(s) in the cluster without slots', len(cluster_masters_without_slots))
@@ -25,7 +27,7 @@ def reshard(source):
 
 def get_slot_distribution(host, port):
     cmd_args = ['-c', '-h', host, '-p', port, 'cluster', 'nodes']
-    result = util.run_redis_cli_cmd(cmd_args, True)
+    result = run_redis_cli_cmd(cmd_args, True)
     result_as_array = parse_cmd_output_to_array(result.stdout)
     return extract_cluster_masters(result_as_array)
 
@@ -58,7 +60,7 @@ def extract_cluster_masters(array_of_all_nodes):
 
 
 def process_array_with_master_node_fields(node_properties_as_array):
-    host, port = util.split_address(node_properties_as_array[1])
+    host, port = split_address(node_properties_as_array[1])
     if is_ip(host):
         start_slot = 0
         end_slot = 0
@@ -94,11 +96,11 @@ def perform_resharding(masters_with_slots, masters_without_slots, source):
                         '--cluster-yes']
             logger.debug("Sharding %s to %s %s slots" % (
                 master_with_slots.node_id, master_without_slots.node_id, shards_amount_per_one_master))
-            util.run_redis_cli_cmd(cmd_args, False)
+            run_redis_cli_cmd(cmd_args, False)
             logger.debug('Soon will run sanity check')
             time.sleep(5)
             cmd_args = ['--cluster', 'fix', master_without_slots.ip + ":" + str(master_without_slots.port)]
-            result = util.run_redis_cli_cmd(cmd_args, True)
+            result = run_redis_cli_cmd(cmd_args, True)
             logger.debug('Sanity check returned code %s' % (str(result.returncode)))
 
         i += 1
