@@ -13,7 +13,7 @@ Adding multiple node is done by `redis-cluster-tool -s SOURCE_NODE_ADDRESS add_n
 You can provide more than one `TARGET_NODE_ADDRESS`.
 
 ### Installation and requirements
-This tools could be installed through `pip` or `pip3` using `pip3 install git+https://github.com/AntonAleksandrov13/python-redis-tool.git`. This will install the latest version of the tool.
+This tools could be installed through `pip` or `pip3` using `git clone https://github.com/AntonAleksandrov13/python-redis-tool.git; cd python-redis-tool; pip install . `. This will install the latest version of the tool.
 Obliviously, in order to make it work you will need Python 3.7, pip or pip3 installed and redis-cli starting from the 5.0.0 version installed on each cluster node. 
 
 In order to get more information about how to use this tool, please use `redis-cluster-tool -h`.

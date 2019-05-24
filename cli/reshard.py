@@ -94,7 +94,7 @@ def perform_resharding(masters_with_slots, masters_without_slots, source):
                         '--cluster-yes']
             logger.debug("Sharding %s to %s %s slots" % (
                 master_with_slots.node_id, master_without_slots.node_id, shards_amount_per_one_master))
-            #util.run_redis_cli_cmd(cmd_args, False)
+            util.run_redis_cli_cmd(cmd_args, False)
             logger.debug('Soon will run sanity check')
             time.sleep(5)
             cmd_args = ['--cluster', 'fix', master_without_slots.ip + ":" + str(master_without_slots.port)]
