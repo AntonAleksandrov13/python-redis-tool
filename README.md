@@ -7,13 +7,18 @@ Resharding is done by `redis-cluster-tool -s SOURCE_NODE_ADDRESS reshard`.
 `SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. It will be used as an entrypoint to all cluster operations.
 `reshard` command requires at least one "empty" master. Otherwise, it will not work.
 
+Example: `redis-cluster-tool -s 192.168.2.10:6379 -d reshard`
+
 ### Adding multiple nodes
 Adding multiple node is done by `redis-cluster-tool -s SOURCE_NODE_ADDRESS add_node --role{master,slave} --target<TARGET_NODE_ADDRESS...>`.
 `SOURCE_NODE_ADDRESS` - One of the nodes from the Redis cluster. `TARGET_NODE_ADDRESS` - Address of the node you would like to add to the cluster.
 You can provide more than one `TARGET_NODE_ADDRESS`.
 
+Example: `redis-cluster-tool -s 192.168.2.10:6379 -d add_node -r slave -t 192.168.2.11:6379 192.168.2.12:6379`
+
+
 ### Installation and requirements
-This tools could be installed through `pip` or `pip3` using `git clone https://github.com/AntonAleksandrov13/python-redis-tool.git; cd python-redis-tool; pip install . `. This will install the latest version of the tool.
+This tools could be installed this way: `git clone https://github.com/AntonAleksandrov13/python-redis-tool.git; cd python-redis-tool; python -m cli`. This will install the latest version of the tool.
 Obliviously, in order to make it work you will need Python 3.7, pip or pip3 installed and redis-cli starting from the 5.0.0 version installed on each cluster node. 
 
 In order to get more information about how to use this tool, please use `redis-cluster-tool -h`.
