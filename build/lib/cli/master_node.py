@@ -7,10 +7,10 @@ class MasterNode(object):
 
     def __init__(self, start_slot, end_slot, ip, port, node_id):
         if not isinstance(start_slot, int):
-            raise TypeError("start_slot must be set to an integer")
+            start_slot = 0
         self.start_slot = start_slot
         if not isinstance(end_slot, int):
-            raise TypeError("start_slot must be set to an integer")
+            end_slot = 0
         self.end_slot = end_slot
         self.ip = ip
         if not isinstance(port, int):

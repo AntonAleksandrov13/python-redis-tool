@@ -2,7 +2,7 @@
 import argparse
 import sys
 
-from cli import reshard, add_node, validate_node
+from cli import reshard, add_node
 import logging
 
 
@@ -46,7 +46,7 @@ class CommandParser(object):
                             help='Role of the node in the cluster. Could be either master or slave')
 
         parser.add_argument('-t', '--target', nargs='+', required=True,
-                            help='Address of the node you would like to add to the cluster.')
+                            help='Address of the node(s) you would like to add to the cluster.')
         options, args = parser.parse_known_args()
         logging.debug('%s have been passed to add_node function', options)
         add_node.add_node_to_cluster(self.source, options.target, options.role)
@@ -61,13 +61,6 @@ class CommandParser(object):
         parser.parse_known_args()
 
         reshard.reshard(self.source)
-
-    @staticmethod
-    def validate(node_to_validate):
-        if not validate_node.is_valid_redis_node(node_to_validate):
-            logging.error("[X] Source node is not valid.")
-            exit(1)
-        logging.info("[√] Source node is valid")
 
 
 def main():

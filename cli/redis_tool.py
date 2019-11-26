@@ -46,7 +46,7 @@ class CommandParser(object):
                             help='Role of the node in the cluster. Could be either master or slave')
 
         parser.add_argument('-t', '--target', nargs='+', required=True,
-                            help='Address of the node you would like to add to the cluster.')
+                            help='Address of the node(s) you would like to add to the cluster.')
         options, args = parser.parse_known_args()
         logging.debug('%s have been passed to add_node function', options)
         add_node.add_node_to_cluster(self.source, options.target, options.role)
